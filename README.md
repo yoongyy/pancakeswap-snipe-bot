@@ -5,15 +5,6 @@
 * [Setup](#HOW-TO-RUN)
 * [TroubleShoot](#TROUBLESHOOT)
 
-## IMPORTANT NOTES BEFORE RUNNING THE BOT
-Just edit some part of the bot, you can see the origin at : https://github.com/MrFatoni/p
-
-### Demo for sonic advanced bot :
-https://bit.ly/3vkSum0
-Also dont forget to join our SONIC DEGEN SCANNER : https://t.me/degenScanner
-
-<img src="./assets/advanced.png">
-
 ### What's the feature
 1. Buy early bsc gems with custom gas fee, slippage, amount.<br>
 2. Auto approve token after buy. <br>
