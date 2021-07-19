@@ -1,8 +1,8 @@
 
 # Table of contents
 * [Important Notes](#IMPORTANT-NOTES-BEFORE-RUNNING-THE-BOT)
-* [Advanced Bot](#ADVANCED BOT)
 * [Setup](#HOW-TO-RUN)
+* [Advanced Bot](#ADVANCED-BOT)
 * [TroubleShoot](#TROUBLESHOOT)
 
 ### What's the feature
