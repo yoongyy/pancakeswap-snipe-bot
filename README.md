@@ -1,7 +1,7 @@
 
 # Table of contents
 * [Important Notes](#IMPORTANT-NOTES-BEFORE-RUNNING-THE-BOT)
-* [Advanced Bot](#NOW-LAUNCH-ADVANCED-BOT)
+* [Advanced Bot](#ADVANCED BOT)
 * [Setup](#HOW-TO-RUN)
 * [TroubleShoot](#TROUBLESHOOT)
 
@@ -12,7 +12,7 @@
 4. Sell token with your custom increasing price, like 50%, 100%, 200%.
 
 ### What's will you get
-To avoid scam, I will invite you to my private repository, and you will get whole of code, and any update if I push new update. Please only contact to <code>nafidinara@gmail.com</code> with subject <b>PancakeSwap Bot Info</b> for more info. For error or problem questions please open issues in GitHub, don't email me. Maybe I'll slow response on weekend. Thanks!
+To avoid scam, I will invite you to my private repository, and you will get whole of code, and any update if I push new update. Please only contact to Telegram https://t.me/PancakeSwapUniSwapBot with subject <b>PancakeSwap Bot Info</b> for more info. For error or problem questions please open issues in GitHub, don't email me. Maybe I'll slow response on weekend. Thanks!
 
 ## HOW TO RUN
 1. clone this repository
@@ -33,7 +33,7 @@ ROUTER=0x10ED43C718714eb63d5aA57B78B54704E256024E
 YOUR_ADDRESS=
 ~ Your BSC (BEP20) address from trustwallet or another wallet.
 
-SLIPPAGE=1
+SLIPPAGE=5
 ~ Customize your slippage here, cannot decimal. (eg : 1, 5, 10). if you buy early token recommended 30+ Slippage
 
 GWEI=5
@@ -67,8 +67,10 @@ TO_PURCHASE=0xe9e7cea3dedca5984780bafc599bd69add087d56
    
 8. Close bot with <code>ctrl + C</code>.
 
-## WARNING
-All this bot feature are free, I'm never sell this bot, and I'm never share my TG account. Please be careful and DWYOR!. Only this bot is free, not advanced bot.
+## ADVANCED BOT
+All this bot feature are free, I'm never sell this bot. Please be careful and DWYOR!. 
+Only this bot is free, and it's only able to snipe one token at a time.
+If you need a bot to snipe ALL new tokens and pairs created in PancakeSwap, please contact me!
 
 ## TROUBLESHOOT
 * there are some reason if your tx failed :

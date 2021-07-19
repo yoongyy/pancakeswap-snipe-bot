@@ -37,7 +37,6 @@ const wss = 'wss://bsc-ws-node.nariox.org:443';
 const mnemonic = process.env.YOUR_MNEMONIC //your memonic;
 const tokenIn = data.WBNB;
 const tokenOut = data.to_PURCHASE;
-// const provider = new ethers.providers.JsonRpcProvider(bscMainnetUrl)
 const provider = new ethers.providers.WebSocketProvider(wss);
 const wallet = new ethers.Wallet(mnemonic);
 const account = wallet.connect(provider);
@@ -76,7 +75,6 @@ const run = async () => {
     const pairAddressx = await factory.getPair(tokenIn, tokenOut);
     console.log(chalk.blue(`pairAddress: ${pairAddressx}`));
     if (pairAddressx !== null && pairAddressx !== undefined) {
-      // console.log("pairAddress.toString().indexOf('0x0000000000000')", pairAddress.toString().indexOf('0x0000000000000'));
       if (pairAddressx.toString().indexOf('0x0000000000000') > -1) {
         console.log(chalk.cyan(`pairAddress ${pairAddressx} not detected. Auto restart`));
         return await run();
@@ -112,7 +110,7 @@ const run = async () => {
       if ( parseInt(data.Slippage) !== 0 ){
         const amounts = await router.getAmountsOut(amountIn, [tokenIn, tokenOut]);
         //Our execution price will be a bit different, we need some flexbility
-        const amountOutMin = amounts[1].sub(amounts[1].div(`${data.Slippage}`));
+        amountOutMin = amounts[1].sub(amounts[1].div(`${data.Slippage}`));
       }
    
       console.log(
@@ -121,12 +119,12 @@ const run = async () => {
         `Buying Token
         =================
         tokenIn: ${(amountIn * 1e-18).toString()} ${tokenIn} (BNB)
-        tokenOut: ${amountOutMin.toString()} ${tokenOut}
+        tokenOut: ${(amountOutMin / 1e-18).toString()} ${tokenOut}
       `);
      
       console.log('Processing Transaction.....');
       console.log(chalk.yellow(`amountIn: ${(amountIn * 1e-18)} ${tokenIn} (BNB)`));
-      console.log(chalk.yellow(`amountOutMin: ${amountOutMin}`));
+      console.log(chalk.yellow(`amountOutMin: ${amountOutMin / 1e-18}`));
       console.log(chalk.yellow(`tokenIn: ${tokenIn}`));
       console.log(chalk.yellow(`tokenOut: ${tokenOut}`));
       console.log(chalk.yellow(`data.recipient: ${data.recipient}`));
