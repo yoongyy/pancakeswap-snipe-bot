@@ -12,7 +12,7 @@
 4. Sell token with your custom increasing price, like 50%, 100%, 200%.
 
 ### What's will you get
-This is a FREE version, and the bot only can snipe one token at a time. If you need a bot that able to snipe ALL new tokens and pairs created at PancakeSwao, please contact me at Telegram https://t.me/PancakeSwapUniSwapBot with subject <b>PancakeSwap Bot Info</b> for more info. For error or problem questions please open issues in GitHub, don't email me. Maybe I'll slow response on weekend. Thanks!
+This is a FREE version, and the bot only can snipe one token at a time. If you need a bot that able to snipe ALL new tokens and pairs created at PancakeSwap, please contact me at Telegram https://t.me/PancakeSwapUniSwapBot for more info. For error or problem questions please open issues in GitHub, don't email me. Maybe I'll slow response on weekend. Thanks!
 
 ## HOW TO RUN
 1. clone this repository
