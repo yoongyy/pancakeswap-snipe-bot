@@ -12,7 +12,7 @@
 4. Sell token with your custom increasing price, like 50%, 100%, 200%.
 
 ### What's will you get
-This is a FREE version, and the bot only can snipe one token at a time. If you need a bot that able to snipe ALL new tokens and pairs created at PancakeSwap, please contact me at Telegram https://t.me/PancakeSwapUniSwapBot for more info. For error or problem questions please open issues in GitHub, don't email me. Maybe I'll slow response on weekend. Thanks!
+This is a FREE version, and the bot only can snipe one token at a time. If you need a bot that able to snipe ALL new tokens and pairs created at PancakeSwap, please contact me at Telegram https://t.me/PancakeSwapUniSwapBot for more info or visit https://pancakeswapbot.org. For error or problem questions please open issues in GitHub, don't email me. Maybe I'll slow response on weekend. Thanks!
 
 ## HOW TO RUN
 1. clone this repository
@@ -70,7 +70,7 @@ TO_PURCHASE=0xe9e7cea3dedca5984780bafc599bd69add087d56
 ## ADVANCED BOT
 All this bot feature are free, I'm never sell this bot. Please be careful and DWYOR!. 
 Only this bot is free, and it's only able to snipe one token at a time.
-If you need a bot to snipe ALL new tokens and pairs created in PancakeSwap, please contact me!
+If you need a bot to snipe ALL new tokens and pairs created in PancakeSwap, please contact me or visit https://pancakeswapbot.org!
 
 ## TROUBLESHOOT
 * there are some reason if your tx failed :
